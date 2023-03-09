@@ -84,7 +84,21 @@ nav{
     font-size: 2.5em;
     
 }
-
+/*Section Jae Hyun texts*/
+.info-poster{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    margin-top: -150px;
+    margin-left: 50px;
+}
+.info-poster h1{
+    font-family: 'Syne',sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 2.5em;
+}
 
 
 
@@ -142,6 +156,7 @@ nav{
     background-color: black ;
     color: #ffffff;
 }
+
 
 .more-info-button{
     border: none;
@@ -272,7 +287,11 @@ opacity: 0;
     background-color: #171719;
 }
 
+
 .sectionbg{
+    width: 100%;
+}
+.secondbg{
     width: 100%;
 }
 
@@ -299,6 +318,19 @@ main{
     margin-left: 30%;
    width: 70%;
 }
+.mockup-poster{
+    position: absolute;
+    z-index: 2;
+    margin-top: 10%;
+    margin-left: -80%;
+   width: 70%;
+}
+
+.mockup-poster:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
 
 .special-text{
     position: absolute;
@@ -309,7 +341,9 @@ main{
     margin-left: 50px;
 
 }
-
+.second-section{
+    padding-bottom: 50px;
+}
 .section-title{
     color: #fff;
     font-family: 'Syne', sans-serif;
@@ -414,5 +448,31 @@ main{
             text-align: left;
             margin-bottom: 10px;
         }
+        
+
+}
+/*Trendy Collection*/
+.hero{
+
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+.hero .carousel{
+    width: 300px;
+    padding-bottom: 1000px;
+    margin: 90px auto 0;
+    overflow: visible;
+}
+.carousel img{
+    -webkit-box-reflect:below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)) ;
+}
+
+.hero h1{
+    font-family: 'Syne',sans-serif;
+    font-weight: 800;
+    color: whitesmoke;
 
 }
