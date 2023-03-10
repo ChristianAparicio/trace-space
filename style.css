@@ -9,6 +9,7 @@ body{
     overflow-x: hidden;
 }
 
+
 header {
     background-color: #18181a81;
     position: fixed;
@@ -24,6 +25,7 @@ header {
     backdrop-filter: blur(40px);
     top: 0;
 }
+
 
 .logo {
     height: 47px;
@@ -569,4 +571,46 @@ opacity: 100;
     background:linear-gradient(gray,#727272);
     border-radius: 6px;
     
+}
+
+footer{
+    background:#171719;
+    padding: 85px 0;
+}
+.single-box p{
+    color: white;
+    line-height: 1.9;
+}
+.single-box h2{
+    font-family: 'Syne',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+.single-box .card-area i{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.single-box ul{
+    list-style:none;
+    padding: 0;
+}
+.single-box ul li a{
+    font-family: 'Syne',sans-serif;
+
+    text-decoration: none;
+    color: whitesmoke;
+    line-height: 2.5;
+    font-weight: 100;
+}
+#basic-addon2{
+    background: #171719;
+    color: white;
+}
+.box p{
+    font-family: 'Syne',sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+    padding-right: 50px;
 }
