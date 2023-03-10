@@ -362,6 +362,8 @@ main {
 
 .price {
     color: #72E492;
+    font-size: 2.1em;
+    padding-bottom: 0.3em;
 }
 
 @media screen and (max-width: 360px) {
