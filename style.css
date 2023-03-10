@@ -616,3 +616,32 @@ footer{
     color: whitesmoke;
     padding-right: 50px;
 }
+.img-fluid{
+    box-shadow: 0 33px 61px -29px black;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.card{
+    background: transparent;
+    padding: 50px;
+    border: none;
+}
+.card:hover{
+    transform: scale(1.15);
+}
+.title-art{
+    color: whitesmoke;
+    font-family: 'Syne',sans-serif;
+    font-weight: 800;
+}
+.info-artist{
+    position: relative;
+    font-family: 'Syne',sans-serif;
+    font-weight: 800;
+    left: 5px;
+    bottom: 25px;
+   
+    color: whitesmoke;
+}
