@@ -10,7 +10,7 @@ body{
 }
 
 
-header {
+#main-header {
     background-color: #18181a81;
     position: fixed;
     border: none;
@@ -24,6 +24,10 @@ header {
     z-index: 100;
     backdrop-filter: blur(40px);
     top: 0;
+}
+
+#mobile-menu{
+    display: none;
 }
 
 
@@ -141,8 +145,8 @@ nav {
     flex-wrap: wrap;
 }
 
-.Title-container {
-    width: 100;
+.title-container {
+    width: 100%;
 }
 
 .button-container {
@@ -301,6 +305,10 @@ nav {
     width: 100%;
 }
 
+.sectionbg-mobile{
+    display: none;
+}
+
 .secondbg {
     width: 100%;
 }
@@ -372,36 +380,44 @@ main {
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 768px) {
+
+    .product-section{
+        gap: 1px;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
 
     .section-product {
         position: relative;
-        width: 352px;
-        height: 437.54px;
+        width: 178.86px;
+        height: 222.31px;
         overflow: hidden;
     }
 
     .product {
-        width: 352px;
-        height: 437.54px;
+        width: 178.86px;
+        height: 222.31px;
         position: relative;
         transition: 0.5s all ease-in-out;
+        object-fit: cover
     }
 
     .product-info {
         width: 70%;
         opacity: 0;
         position: absolute;
-        top: 240px;
-        left: 20px;
+        top: 110px;
+        left: -10px;
         z-index: 2;
-        ;
         transition: 0.5s all ease-in-out;
+        transform: scale(0.5);
     }
 
     .carousel-image {
 
-        transform: scale(1.3);
+       
+       object-fit: cover
 
     }
 
@@ -416,7 +432,7 @@ main {
     }
 
     #maincarousel {
-        height: 312.36px;
+        height: 500px;
     }
 
     .carousel {
@@ -439,7 +455,7 @@ main {
         color: #fff;
         font-family: 'Syne', sans-serif;
         font-weight: 800;
-        font-size: 1.5em;
+        font-size: 1.2em;
 
     }
 
@@ -460,6 +476,101 @@ main {
         text-align: left;
         margin-bottom: 10px;
     }
+    
+    .shop-now-button {
+        font-size: 0.7em;
+        width: 13em;
+        height: 2.7em;
+        gap: 20px;
+       
+    }
+
+    .more-info-button {
+       
+        font-size: 0.7em;
+        width: 13em;
+        height: 2.7em;
+        gap: 20px;
+       
+    }
+
+    
+.button-container {
+
+    width: 14em;
+}
+
+.title-container {
+    width: 250%;
+}
+
+.product-info {
+    opacity: 1;
+}
+
+.gradient-hover {
+    margin-top: -249px;
+    height: 249px;
+    opacity: 1;
+}
+
+#main-header{
+    display: none;
+}
+
+#mobile-menu {
+    background-color: #18181a81;
+    position: fixed;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    height: 63px;
+    width: 100%;
+    align-items: center;
+    z-index: 100;
+    backdrop-filter: blur(40px);
+    top: 0;
+}
+
+#mobile-navlist{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.logo{
+    width: 124px;
+    height: 33.69px;
+}
+
+.section-title {
+    font-size: 1.3em;
+}
+
+.sectionbg{
+    display: none;
+}
+
+.sectionbg-mobile{
+    display: flex;
+    width: 100%;
+}
+
+.mockup{
+    z-index: 0;
+    margin-top: -120%;
+    margin-left: -3%;
+    width: 120%;
+
+}
+
+.price{
+    font-size: 1.5em;
+}
+
 
 
 }
