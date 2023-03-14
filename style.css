@@ -561,9 +561,9 @@ main {
 
 .mockup{
     z-index: 0;
-    margin-top: -120%;
-    margin-left: -3%;
-    width: 120%;
+    margin-top: -110%;
+    margin-left: -0.2%;
+    width: 100%;
 
 }
 
@@ -571,6 +571,9 @@ main {
     font-size: 1.5em;
 }
 
+.special-item>figure {
+   overflow: hidden;
+}
 
 
 }
@@ -605,13 +608,7 @@ main {
 
 }
 
-.carousel img:hover {
-    cursor: pointer;
-    opacity: 0.5;
-    
-    
 
-}
 
 .content  {
    font-family: 'Syne',sans-serif;
