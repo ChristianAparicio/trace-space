@@ -100,7 +100,7 @@ nav {
     display: flex;
     flex-direction: column;
     z-index: 2;
-    margin-top: -300px;
+    margin-top: -400px;
     margin-left: 50px;
 }
 
@@ -570,7 +570,7 @@ main {
 }
 
 .price{
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .special-item>figure {
@@ -774,4 +774,41 @@ footer{
 }
 .hero .carousel{
     margin-top: 0px;
+}
+.secondbg-mobile{
+    display: none;
+}
+@media screen and (max-width:768px) {
+    .secondbg{
+        display: none;
+    }
+    .secondbg-mobile{
+        display: flex;
+        width: 100%;
+
+    }
+    .info-poster{
+        margin-top: -150px;
+        margin-left: 20px;
+    }
+    .info-poster h1{
+        font-size: 1.2em;
+    }
+
+    .mockup-poster{
+        margin-left: -50px;
+        margin-top: -410px;
+        width: 110%;
+        
+    }
+    .card{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    footer{
+        padding-top:50px ;
+    }
+    
 }
