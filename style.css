@@ -381,8 +381,10 @@ main {
     }
 }
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 768px) { 
+    .footer-container{
+        text-align: center;
+    }
     .product-section{
         gap: 1px;
         margin-left: 0em;
