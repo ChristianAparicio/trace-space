@@ -1,5 +1,5 @@
 $('.owl-carousel').owlCarousel({
-    autoplay: false,
+    autoplay: true,
     center: true,
     loop: true,
     nav: true,

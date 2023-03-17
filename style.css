@@ -823,7 +823,7 @@ footer{
 }
 
 .owl-item.active > div:after {
-    content: 'active';
+    content: 'active owl';
     color: #171719;
   }
   .owl-item.center > div:after {
@@ -833,7 +833,7 @@ footer{
     
   }
   .owl-item.active.center > div:after {
-    content: 'active center';
+    content: 'active';
     color: #171719;
   }
   .owl-item > div:after {
@@ -846,13 +846,13 @@ footer{
   
     transform: scale(1);
     -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
-      filter: grayscale(0);
+     filter: grayscale(0);
   }
-  .active {
+  .active.owl {
     transform: scale(.8);
     transition: .6s ease;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-      filter: grayscale(100%);
+   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+     filter: grayscale(100%);
   }
 
 .active.center h1{
@@ -883,4 +883,5 @@ footer{
 }
 #tracer-footer{
     padding-left: 50px;
+    padding-right: 50px;
 }
