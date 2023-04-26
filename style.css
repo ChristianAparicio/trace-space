@@ -169,6 +169,23 @@ nav {
     background-color: black;
     color: #ffffff;
 }
+.shop-now{
+    position: absolute;
+    top: 560px;
+    left: 160px;
+    
+    border: none;
+    background-color:  rgba(255, 255, 255, 0.562);;
+    width: 10em;
+    height: 2em;
+    
+    gap: 5px;
+    color: #171719;
+}
+.shop-now:hover{
+    background-color: rgba(13, 13, 13, 0.712);
+    color: rgb(255, 255, 255);
+}
 
 
 .more-info-button {
