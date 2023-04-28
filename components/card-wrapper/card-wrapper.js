@@ -34,8 +34,25 @@ class cardwrapper extends HTMLElement {
     render(){
         this.shadowRoot.innerHTML =`
         <link rel="stylesheet" href="./components/card-wrapper/style-wrapper.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+      </script>
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    
         ` 
          this.shadowRoot.innerHTML +=` 
+
+         <header id="mobile-menu">
+         <nav id="mobile-navlist">
+           <a href="#"><i class="icon bi-list"></i></a>
+           <a href="#"><img class="logo" src="imgs/logo.png" alt="" /></a>
+           <a href="#"><i class="icon bi-search"></i></a>
+         </nav>
+       </header>
 
          <header id="mobile-menu">
          <nav id="mobile-navlist">
@@ -90,7 +107,7 @@ class cardwrapper extends HTMLElement {
 
         <div class="img-select">
             <div class="img-list[0]">
-                <a href="#" data-id="1">
+                <a href="#"  data-id="1">
                     <img class="selction-img" src=${list[productId].img1} alt="">
                 </a>
             </div>
@@ -123,12 +140,92 @@ class cardwrapper extends HTMLElement {
 <li class="text">Description: <span class="text-li-info">${list[productId].Description}</span></li>
 
 </ul>
+<button class="shop-now-button">
+<i class="bi-cart"></i>SHOP NOW
+</button>
 
 </section>
 
 </section>
 
 </section>
+
+<section class="its">
+
+<h2 class="section-title">Similar Products</h2>
+
+<div class="similars">
+
+<a class="similarcard" href="./detail.html?id=2">
+
+        
+<figure class="section-product">
+  <img class="product" src="imgs/stickers/mingyu.png" alt="" />
+
+  <div class="product-info">
+    <h2 class="container-title">Mingyu Sticker</h2>
+    <h6 class="product-price">$6000</h6>
+    <button class="shop-now-button">
+      <i class="bi-cart"></i>SHOP NOW
+    </button>
+  </div>
+
+  <div class="gradient-hover"></div>
+</figure>
+</a>
+<a class="similarcard"  href="./detail.html?id=0">
+<figure class="section-product">
+  <img class="product" src="imgs/stickers/joshua.png" alt="" />
+
+  <div class="product-info">
+    <h2 class="container-title">Joshua Sticker</h2>
+    <h6 class="product-price">$6000</h6>
+    <button class="shop-now-button">
+      <i class="bi-cart"></i>SHOP NOW
+    </button>
+  </div>
+
+  <div class="gradient-hover"></div>
+</figure>
+</a>
+<a class="similarcard" href="./detail.html?id=1">
+<figure class="section-product">
+  <img class="product" src="imgs/stickers/scoups.png" alt="" />
+
+  <div class="product-info">
+    <h2 class="container-title">Scoups Sticker</h2>
+    <h6 class="product-price">$6000</h6>
+    <button class="shop-now-button">
+      <i class="bi-cart"></i>SHOP NOW
+    </button>
+  </div>
+
+  <div class="gradient-hover"></div>
+</figure>
+</a>
+
+<a class="similarcard" href="./detail.html?id=3">
+        <figure class="section-product">
+          <img class="product" src="imgs/stickers/vernon.png" alt="" />
+
+          <div class="product-info">
+            <h2 class="container-title">Vernon Sticker</h2>
+            <h6 class="product-price">$6000</h6>
+            <button class="shop-now-button">
+              <i class="bi-cart"></i>SHOP NOW
+            </button>
+          </div>
+
+          <div class="gradient-hover"></div>
+        </figure>
+      </a>
+</div>
+</section>
+
+<div class="fondo">
+
+Jessica
+</div>
 
         `
         const imgs = this.shadowRoot.querySelectorAll('.img-select a');
