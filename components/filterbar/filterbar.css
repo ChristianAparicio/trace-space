@@ -1,0 +1,77 @@
+.card{
+    margin-top: 50px;
+    transition: 0.5s all ease-in-out;
+}
+.card::after{
+    transition-property: none !important;
+    -webkit-transition-property: none !important;
+    animation: none !important;
+    -webkit-animation: none !important;
+}
+.card:active{
+    transition: 0s;
+}
+.card img{
+    width: 400px;
+}
+.card:hover{
+    transform: none;
+}
+.card-hover {
+    margin-top: 50px;
+
+    width: 100%;
+    height: 411px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    right: 50px;
+    padding-right: 100px;
+    background-image: linear-gradient(to bottom, rgba(23, 23, 25, 0) 0, #171719 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: whitesmoke;
+    overflow: hidden;
+  }
+  
+  .card:hover .card-hover {
+    opacity: 1;
+  }
+  
+  .card-hover h3, .card-hover p, .card-hover h5, .card-hover a {
+    margin-top: 0;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
+  }
+  
+  .card:hover .card-hover h3,
+  .card:hover .card-hover p,
+  .card:hover .card-hover h5,
+  .card:hover .card-hover a {
+    transform: translateY(0);
+  }
+  
+.space-top{
+    margin-top: 200px !important;
+}
+.search-bar{
+    background-color: #0000ff !important;
+}
+
+.btn_filters{
+    width: 20px;
+    height: 10px;
+
+}
+
+#clearFiltersButton{
+    margin-top: 22px !important;
+}
+.no-animation *,
+.no-animation *::before,
+.no-animation *::after {
+  transition-property: none !important;
+  -webkit-transition-property: none !important;
+  animation: none !important;
+  -webkit-animation: none !important;
+}
