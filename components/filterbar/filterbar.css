@@ -40,7 +40,7 @@
   }
   
   .card-hover h3, .card-hover p, .card-hover h5, .card-hover a {
-    margin-top: 50px;
+    margin-top: 45px;
     transition: transform 0.3s ease-in-out;
     transform: translateY(-100%);
   }
@@ -85,4 +85,19 @@
 .shop_now:hover{
   background-color: whitesmoke !important;
   color: #171719 !important;
+}
+
+
+.card-title{
+  color: aliceblue;
+  font-family: 'Syne',sans-serif;
+  font-weight: 800;
+  
+}
+
+
+.card-price{
+  color:#72E492;
+  font-size: 2.1em;
+  
 }
