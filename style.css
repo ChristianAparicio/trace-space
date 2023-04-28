@@ -4,6 +4,7 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
+    padding-left: 0;
 }
 body{
     background-color: #000;
@@ -392,6 +393,7 @@ main {
     font-size: 2.1em;
     padding-bottom: 0.3em;
 }
+
 
 @media screen and (max-width: 360px) {
     .navitem {

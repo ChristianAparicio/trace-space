@@ -1,0 +1,323 @@
+[
+    {
+        "Name":"Joshua Sticker",
+    "Price": "6000",
+    "Collection": "SeventeenXSanrio",
+    "ProductType": "Sticker",
+    "year":"2023",
+    "img1":"imgs/joshua-sticker/1.png",
+    "img2":"imgs/joshua-sticker/2.png",
+    "img3":"imgs/joshua-sticker/3.png",
+    "Author":"Christian Aparicio",
+    "Description":"Cute Sticker Based on the Kpop group Seventeen and Sanrio Characters",
+    "id": 0
+
+    },
+
+    {
+        "Name":"Scoups Sticker",
+    "Price": "6000",
+    "Collection": "SeventeenXSanrio",
+    "ProductType": "Sticker",
+    "year":"2023",
+    "img1":"imgs/scoups-sticker/1.png",
+    "img2":"imgs/scoups-sticker/2.png",
+    "img3":"imgs/scoups-sticker/3.png",
+    "Author":"Christian Aparicio",
+    "Description":"Cute Sticker Based on the Kpop group Seventeen and Sanrio Characters",
+    "id": 1
+
+    },
+
+    {
+        "Name":"Mingyu Sticker",
+    "Price": "6000",
+    "Collection": "SeventeenXSanrio",
+    "ProductType": "Sticker",
+    "year":"2023",
+    "img1":"imgs/mingyu-sticker/1.png",
+    "img2":"imgs/mingyu-sticker/2.png",
+    "img3":"imgs/mingyu-sticker/1-1.png",
+    "Author":"Christian Aparicio",
+    "Description":"Cute Sticker Based on the Kpop group Seventeen and Sanrio Characters",
+    "id": 2
+    },
+
+    {
+        "Name":"Vernon Sticker",
+    "Price": "6000",
+    "Collection": "SeventeenXSanrio",
+    "ProductType": "Sticker",
+    "year":"2023",
+    "img1":"imgs/vernon-sticker/1.png",
+    "img2":"imgs/vernon-sticker/2.png",
+    "img3":"imgs/vernon-sticker/3.png",
+    "Author":"Christian Aparicio",
+    "Description":"Cute Sticker Based on the Kpop group Seventeen and Sanrio Characters",
+    "id": 3
+
+    },
+
+    {
+        "Name":"Woozi Sticker",
+    "Price": "6000",
+    "Collection": "SeventeenXSanrio",
+    "ProductType": "Sticker",
+    "year":"2023",
+    "img1":"imgs/woozie-sticker/1.png",
+    "img2":"imgs/woozie-sticker/2.png",
+    "img3":"imgs/woozie-sticker/3.png",
+    "Author":"Dana Garcia",
+    "Description":"Cute Sticker Based on the Kpop group Seventeen and Sanrio Characters",
+    "id": 4
+
+    },
+
+    {
+        "Name":"Wonwoo Sticker",
+    "Price": "6000",
+    "Collection": "SeventeenXSanrio",
+    "ProductType": "Sticker",
+    "year":"2023",
+    "img1":"imgs/wonwoo-sticker/1.png",
+    "img2":"imgs/wonwoo-sticker/2.png",
+    "img3":"imgs/wonwoo-sticker/3.png",
+    "Author":"Dana Garcia",
+    "Description":"Cute Sticker Based on the Kpop group Seventeen and Sanrio Characters",
+    "id": 5
+
+    },
+
+    {
+        "Name":"Jeonghan Sticker",
+    "Price": "6000",
+    "Collection": "SeventeenXSanrio",
+    "ProductType": "Sticker",
+    "year":"2023",
+    "img1":"imgs/jeonghan-sticker/1.png",
+    "img2":"imgs/jeonghan-sticker/2.png",
+    "img3":"imgs/jeonghan-sticker/3.png",
+    "Author":"Dana Garcia",
+    "Description":"Cute Sticker Based on the Kpop group Seventeen and Sanrio Characters",
+    "id": 6
+
+    },
+
+    {
+        "Name":"Hoshi Sticker",
+    "Price": "6000",
+    "Collection": "SeventeenXSanrio",
+    "ProductType": "Sticker",
+    "year":"2023",
+    "img1":"imgs/hoshi-sticker/1.png",
+    "img2":"imgs/hoshi-sticker/2.png",
+    "img3":"imgs/hoshi-sticker/3.png",
+    "Author":"Dana Garcia",
+    "Description":"Cute Sticker Based on the Kpop group Seventeen and Sanrio Characters",
+    "id": 7
+
+    },
+
+    {
+        "Name":"Black Pink Sticker",
+    "Price": "6000",
+    "Collection": "Dreamy Stickers",
+    "ProductType": "Sticker",
+    "year":"2023",
+    "img1":"imgs/blackpink-sticker/1.png",
+    "img2":"imgs/blackpink-sticker/2.png",
+    "img3":"imgs/blackpink-sticker/3.png",
+    "Author":"Christian Aparicio",
+    "Description":"Cute Stickers based on a retro shoujo anime style",
+    "id": 8
+
+    },
+
+    {
+        "Name":"Taylor x Katy Sticker",
+    "Price": "6000",
+    "Collection": "Dreamy Stickers",
+    "ProductType": "Sticker",
+    "year":"2023",
+    "img1":"imgs/fries.sticker/1.png",
+    "img2":"imgs/fries.sticker/2.png",
+    "img3":"imgs/fries.sticker/3.png",
+    "Author":"Christian Aparicio",
+    "Description":"Cute Stickers based on a retro shoujo anime style",
+    "id": 9
+
+    },
+
+    {
+        "Name":"Jennie Tv Sticker",
+    "Price": "6000",
+    "Collection": "Dreamy Stickers",
+    "ProductType": "Sticker",
+    "year":"2023",
+    "img1":"imgs/jenny-sticker/1.png",
+    "img2":"imgs/jenny-sticker/2.png",
+    "img3":"imgs/jenny-sticker/3.png",
+    "Author":"Christian Aparicio",
+    "Description":"Cute Stickers based on a retro shoujo anime style",
+    "id": 10
+
+    },
+
+    {
+        "Name":"Tv Sticker",
+    "Price": "6000",
+    "Collection": "Dreamy Stickers",
+    "ProductType": "Sticker",
+    "year":"2023",
+    "img1":"imgs/tv-sticker/1.png",
+    "img2":"imgs/tv-sticker/2.png",
+    "img3":"imgs/tv-sticker/3.png",
+    "Author":"Christian Aparicio",
+    "Description":"Cute Stickers based on a retro shoujo anime style",
+    "id": 11
+
+    },
+
+    
+    {
+        "Name":"Paris Hilton Sticker",
+    "Price": "6000",
+    "Collection": "Dreamy Stickers",
+    "ProductType": "Sticker",
+    "year":"2023",
+    "img1":"imgs/paris-sticker/1.png",
+    "img2":"imgs/paris-sticker/2.png",
+    "img3":"imgs/paris-sticker/3.png",
+    "Author":"Christian Aparicio",
+    "Description":"Cute Stickers based on a retro shoujo anime style",
+    "id": 12
+
+    },
+
+    {
+        "Name":"Sapa Perra Sticker",
+    "Price": "6000",
+    "Collection": "Dreamy Stickers",
+    "ProductType": "Sticker",
+    "year":"2023",
+    "img1":"imgs/sapaperra-sticker/1.png",
+    "img2":"imgs/sapaperra-sticker/2.png",
+    "img3":"imgs/sapaperra-sticker/3.png",
+    "Author":"Christian Aparicio",
+    "Description":"Cute Stickers based on a retro shoujo anime style",
+    "id": 13
+
+    },
+
+    
+    {
+        "Name":"Bichota Mug",
+    "Price": "2500",
+    "Collection": "Celebrities",
+    "ProductType": "mug",
+    "year":"2022",
+    "img1":"imgs/karolg-mug/1.png",
+    "img2":"imgs/karolg-mug/2.png",
+    "img3":"imgs/karolg-mug/3.png",
+    "Author":"Christian Aparicio",
+    "Description":"Roncas pero no puedes con el pum pum de este mug que es amazing, super amazing, re amazing",
+    "id": 14
+
+    },
+
+    {
+        "Name":"Jae Hyun Poster",
+    "Price": "6000",
+    "Collection": "Celebrities",
+    "ProductType": "Poster",
+    "year":"2022",
+    "img1":"imgs/jae-hyun-poster/1.png",
+    "img2":"imgs/jae-hyun-poster/2.png",
+    "img3":"imgs/jae-hyun-poster/3.png",
+    "Author":"Christian Aparicio",
+    "Description":"Poster based on the Kpop Idol Jae-Hyun from the group NCT",
+    "id": 15
+
+    },
+
+    {
+        "Name":"Lana Del Rey Poster",
+    "Price": "6000",
+    "Collection": "Celebrities",
+    "ProductType": "Poster",
+    "year":"2022",
+    "img1":"imgs/lana-poster/1.png",
+    "img2":"imgs/lana-poster/2.png",
+    "img3":"imgs/lana-poster/3.png",
+    "Author":"Christian Aparicio",
+    "Description":"Cute, amazing and gorge poster o Lanita Bonita Latina",
+    "id": 16
+
+    },
+
+    {
+        "Name":"Gigi x Bella Poster",
+    "Price": "3000",
+    "Collection": "Celebrities",
+    "ProductType": "Poster",
+    "year":"2022",
+    "img1":"imgs/gigi-poster/1.png",
+    "img2":"imgs/gigi-poster/2.png",
+    "img3":"imgs/gigi-poster/3.png",
+    "Author":"Christian Aparicio",
+    "Description":"An amazing, nice poster, perfect for you",
+    "id": 17
+
+    },
+
+    {
+        "Name":"Blue Lock Poster",
+    "Price": "6000",
+    "Collection": "Anime Toon",
+    "ProductType": "Poster",
+    "year":"2022",
+    "img1":"imgs/bluelock-poster/1.png",
+    "img2":"imgs/bluelock-poster/2.png",
+    "img3":"imgs/bluelock-poster/3.png",
+    "Author":"Camilo Gomez",
+    "Description":"An amazing, nice poster, perfect for you",
+    "id": 18
+
+    },
+
+    
+    {
+        "Name":"Anime Toon Poster",
+    "Price": "6000",
+    "Collection": "Anime Toon",
+    "ProductType": "Poster",
+    "year":"2022",
+    "img1":"imgs/animetoon.poster/1.png",
+    "img2":"imgs/animetoon.poster/2.png",
+    "img3":"imgs/animetoon.poster/3.png",
+    "Author":"Camilo Gomez",
+    "Description":"An amazing, nice poster, perfect for you",
+    "id": 19
+
+    },
+
+    {
+        "Name":"Cam x Killa Poster",
+    "Price": "6000",
+    "Collection": "Anime Toon",
+    "ProductType": "Poster",
+    "year":"2022",
+    "img1":"imgs/camxkilla-poster/1.png",
+    "img2":"imgs/camxkilla-poster/2.png",
+    "img3":"imgs/camxkilla-poster/3.png",
+    "Author":"Camilo Gomez",
+    "Description":"An amazing, nice poster, perfect for you",
+    "id": 19
+
+    }
+
+    
+
+
+
+]
