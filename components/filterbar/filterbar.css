@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+.card{
+    margin-top: 50px;
+    transition: 0.5s all ease-in-out;
+}
+.card::after{
+    transition-property: none !important;
+    -webkit-transition-property: none !important;
+    animation: none !important;
+    -webkit-animation: none !important;
+}
+.card:active{
+    transition: 0s;
+}
+.card img{
+    width: 400px;
+}
+.card:hover{
+    transform: none;
+}
+.card-hover {
+    margin-top: 140px;
+
+    width: 100%;
+    height: 411px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    right: 50px;
+    padding-right: 100px;
+    background-image: linear-gradient(to bottom, rgba(23, 23, 25, 0) 0, #171719 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: whitesmoke;
+    overflow: hidden;
+  }
+  
+  .card:hover .card-hover {
+    opacity: 1;
+  }
+  
+  .card-hover h3, .card-hover p, .card-hover h5, .card-hover a {
+    margin-top: 45px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
+  }
+  
+  .card:hover .card-hover h3,
+  .card:hover .card-hover p,
+  .card:hover .card-hover h5,
+  .card:hover .card-hover a {
+    transform: translateY(0);
+  }
+  
+.space-top{
+    margin-top: 200px !important;
+}
+.search-bar{
+    background-color: #0000ff !important;
+}
+
+.btn_filters{
+    width: 20px;
+    height: 10px;
+
+}
+
+#clearFiltersButton{
+    margin-top: 22px !important;
+}
+.no-animation *,
+.no-animation *::before,
+.no-animation *::after {
+  transition-property: none !important;
+  -webkit-transition-property: none !important;
+  animation: none !important;
+  -webkit-animation: none !important;
+}
+
+.shop_now{
+  background-color: #171719 !important;
+  color: whitesmoke !important;
+}
+
+.shop_now:hover{
+  background-color: whitesmoke !important;
+  color: #171719 !important;
+}
+
+
+.card-title{
+  color: aliceblue;
+  font-family: 'Syne',sans-serif;
+  font-weight: 800;
+  
+}
+
+
+.card-price{
+  color:#72E492;
+  font-size: 2.1em;
+  
+}
