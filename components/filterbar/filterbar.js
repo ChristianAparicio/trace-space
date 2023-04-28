@@ -120,7 +120,7 @@ class CardFilter extends HTMLElement {
                 <h3 class="card-title">${product.Name}</h3>
                 <p class="card-text">${product.Description}</p>
                 <h5 class="card-price">$${product.Price}</h5>
-                <a href="#" class="btn btn-primary">Buy Now</a>
+                <a href="#" class="btn btn-primary shop_now"><i class="bi-cart"></i>Buy Now</a>
                
               </div>
             </div>
