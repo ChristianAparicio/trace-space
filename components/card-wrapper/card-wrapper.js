@@ -227,6 +227,71 @@ class cardwrapper extends HTMLElement {
 Jessica
 </div>
 
+
+<footer id="tracer-footer">
+<div class="footer-container">
+  <div class="row">
+    <div class="col-lg-3 col-sm-6">
+      <div class="box">
+        <img src="imgs/logo.png" class="logo" />
+        <p>©2023 Trace. All rights reserved</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="single-box">
+        <h2>Product</h2>
+        <ul>
+          <li><a href="#">Original Paintings</a></li>
+          <li><a href="#">Stickers</a></li>
+          <li><a href="#">Art prints</a></li>
+          <li><a href="#">Collections</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="single-box">
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms and condition</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="single-box">
+        <h2>Company</h2>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Why choose us</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="single-box">
+        <h2>Suscribe</h2>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Enter your email..."
+            aria-label="Recipient's username" aria-describedby="basic-addon2" />
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">
+              <i class="bi bi-arrow-right-short"></i></span>
+          </div>
+        </div>
+        <h2>Follow Us On</h2>
+        <p class="socialmedia">
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-dribbble"></i>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+
         `
         const imgs = this.shadowRoot.querySelectorAll('.img-select a');
         const imgBtns = [...imgs];

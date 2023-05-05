@@ -283,40 +283,7 @@
     "Description":"An amazing, nice poster, perfect for you",
     "id": 18
 
-    },
-
-    
-    {
-        "Name":"Anime Toon Poster",
-    "Price": "6000",
-    "Collection": "Anime Toon",
-    "ProductType": "Poster",
-    "year":"2022",
-    "img1":"imgs/animetoon.poster/1.png",
-    "img2":"imgs/animetoon.poster/2.png",
-    "img3":"imgs/animetoon.poster/3.png",
-    "Author":"Camilo Gomez",
-    "Description":"An amazing, nice poster, perfect for you",
-    "id": 19
-
-    },
-
-    {
-        "Name":"Cam x Killa Poster",
-    "Price": "6000",
-    "Collection": "Anime Toon",
-    "ProductType": "Poster",
-    "year":"2022",
-    "img1":"imgs/camxkilla-poster/1.png",
-    "img2":"imgs/camxkilla-poster/2.png",
-    "img3":"imgs/camxkilla-poster/3.png",
-    "Author":"Camilo Gomez",
-    "Description":"An amazing, nice poster, perfect for you",
-    "id": 19
-
     }
-
-    
 
 
 
